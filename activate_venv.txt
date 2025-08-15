@@ -6,3 +6,11 @@ uvicorn app.main:app --reload
 
 
 http://127.0.0.1:8000
+
+fastapi run
+
+docker-compose up
+docker-compose build
+docker-compose down
+
+docker system prune -a --volumes #Полная очистка
